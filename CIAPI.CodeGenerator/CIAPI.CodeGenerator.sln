@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetaData", "MetaData", "{AC1ED105-C271-4726-B089-E9B431BD3EB4}"
+	ProjectSection(SolutionItems) = preProject
+		MetaData\schema.js = MetaData\schema.js
+		MetaData\schema.patch.js = MetaData\schema.patch.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIAPI.DTOGenerator", "CIAPI.DTOGenerator\CIAPI.DTOGenerator.csproj", "{A99E6CD2-961A-430D-BEE5-C7A4E4F772E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generated", "Generated", "{614AEDF9-EB9D-452D-BC7F-ECFA8EB85498}"
+	ProjectSection(SolutionItems) = preProject
+		Generated\dto.cs = Generated\dto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36BF30A3-282A-47EF-AB59-935071A45410}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A99E6CD2-961A-430D-BEE5-C7A4E4F772E5}.Debug|x86.ActiveCfg = Debug|x86
+		{A99E6CD2-961A-430D-BEE5-C7A4E4F772E5}.Debug|x86.Build.0 = Debug|x86
+		{A99E6CD2-961A-430D-BEE5-C7A4E4F772E5}.Release|x86.ActiveCfg = Release|x86
+		{A99E6CD2-961A-430D-BEE5-C7A4E4F772E5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
